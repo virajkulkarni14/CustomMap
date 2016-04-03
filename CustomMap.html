@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Google Maps</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="legend.js"></script>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>MyCo Bay Area Locations</header>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjh-rP2XxYiSA29F663OqaFCvwa2rKn2w&callback=initMap"
+    async defer></script>
+    <div id="legend">
+    <aside>
+      <h3>Map Legend:</h3>
+      <ul>
+        <li>
+          Distribution Facilities:
+          <img src="images/red.png"></li>
+        <li>
+          Headquarters:
+          <img class="hq" src="images/white.png"></li>
+        <li>
+          Call Center:
+          <img src="images/blue.png"></li>
+        <li>
+          Retail locations:
+          <img src="images/green.png"></li>
+        <li>
+          Revenue Circle:
+          <div id="circle"></div>
+        </li>
+      </ul>
+    </aside></div>
+    <footer>Viraj Kulkarni | Custom Google Maps</footer>
+  </body>
+</html>
+

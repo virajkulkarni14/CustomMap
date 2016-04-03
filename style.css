@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+img {
+  height: 10%;
+  width: 10%;
+}
+img.hq {
+  background: black;
+}
+#map {
+  margin: 0 auto;
+  height: 80%;
+  width: 80%;
+  float: left;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 1px;
+  margin-left: 1em
+}
+#legend {
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 1px;
+  margin-left: 66em;
+  margin-right: 1em;
+}
+#circle {
+  width: 40px;
+  height: 40px;
+  background: #969696;
+  border: 1px solid #404040;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  padding: 10px;
+  text-decoration: underline
+}
+h3 {
+  text-align: center;
+  text-decoration: underline
+}
+ul {
+  padding-left: 20px;
+}
+ul > li {
+  padding-right: 10px;
+}
+footer {
+  padding-top: 50px;
+  text-align: center;
+  text-decoration: underline;
+  clear: both;
+}
+
